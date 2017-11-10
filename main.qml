@@ -36,9 +36,11 @@ Window {
         source: background_image
         maskSource: mask
     }
-    Rectangle{
+    Item{
         id:root
-        anchors.fill: parent
+        z: 1
+        width: parent.width
+        height: 20
         TitleBar{
         }
     }
