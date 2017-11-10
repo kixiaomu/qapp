@@ -5,7 +5,7 @@ Item {
     width: 100
     height: 100
     property alias img_url: custom_image.source
-    signal click();
+    signal click
     Rectangle{
         anchors.fill: parent
         border.color: "green"

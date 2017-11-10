@@ -4,5 +4,53 @@
         <file>MainForm.ui.qml</file>
         <file>mbutton.qml</file>
         <file>Grid_Item.qml</file>
+        <file>images/close_hover.png</file>
+        <file>images/close_normal.png</file>
+        <file>images/close_pressed.png</file>
+        <file>images/closeWindow.ico</file>
+        <file>images/cloud.png</file>
+        <file>images/feedback_hover.png</file>
+        <file>images/feedback_normal.png</file>
+        <file>images/feedback_pressed.png</file>
+        <file>images/fireproof.png</file>
+        <file>images/gray_medal.png</file>
+        <file>images/head_bg_3.jpg</file>
+        <file>images/ico_AdvTools.png</file>
+        <file>images/ico_diannaomenzhen.png</file>
+        <file>images/ico_dsmain.png</file>
+        <file>images/ico_Examine.png</file>
+        <file>images/ico_expert.png</file>
+        <file>images/ico_softmgr.png</file>
+        <file>images/ico_SpeedupOpt.png</file>
+        <file>images/ico_SysRepair.png</file>
+        <file>images/ico_TraceCleaner.png</file>
+        <file>images/ico_VulRepair.png</file>
+        <file>images/jingling.png</file>
+        <file>images/logo.png</file>
+        <file>images/ludashi.png</file>
+        <file>images/max_max.ico</file>
+        <file>images/max_normal.ico</file>
+        <file>images/medal.png</file>
+        <file>images/menu_hover.png</file>
+        <file>images/menu_normal.png</file>
+        <file>images/menu_pressed.png</file>
+        <file>images/min_hover.png</file>
+        <file>images/min_normal.png</file>
+        <file>images/min_pressed.png</file>
+        <file>images/minWindow.ico</file>
+        <file>images/net_shop.png</file>
+        <file>images/ruanjian.png</file>
+        <file>images/shouji.png</file>
+        <file>images/skin_hover.png</file>
+        <file>images/skin_normal.png</file>
+        <file>images/skin_pressed.png</file>
+        <file>images/triggerman.png</file>
+        <file>images/upan.png</file>
+        <file>images/version.png</file>
+        <file>images/weishi.png</file>
+        <file>images/youxi.png</file>
+        <file>images/zhuangji.png</file>
+        <file>images/zhuomian.png</file>
+        <file>TitleBar.qml</file>
     </qresource>
 </RCC>

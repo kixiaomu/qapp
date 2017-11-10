@@ -7,8 +7,30 @@ int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
     engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
-    if (engine.rootObjects().isEmpty())
-        return -1;
+
 
     return app.exec();
 }
+/*
+    ResizeQmlWindow resize;
+    //QPaintEvent *e;
+
+    QQmlApplicationEngine engine;
+    engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
+    engine.rootContext()->setContextProperty("resize",&resize);
+
+    QObject *rootObject = engine.rootObjects().first();
+    //qDebug()<<"111 ="<<rootObject<<rootObject->isWindowType();
+    QWindow *w = qobject_cast<QWindow *>(rootObject);
+    //qDebug()<<"main w ="<<w;
+
+    if(w)
+    {
+        //qDebug()<<"w != NULL";
+        resize.setWindow(w);
+        w->setMinimumSize(QSize(640,480));
+        //resize.paintEvent(e);
+    }
+
+
+*/
