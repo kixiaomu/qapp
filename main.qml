@@ -40,16 +40,22 @@ Window {
     }
     ColumnLayout{
         anchors.fill: parent
+
         spacing:0
         //标题栏
         TitleBar{
-            height: 20
+            anchors.top:parent.top
+            anchors.topMargin: 5
+            height: 60
             Layout.fillWidth: true
         }
-        //中间按钮
-        ToolBar{
-            height: 64
+        ToolBar2{
+            height: 200
             Layout.fillWidth: true
+        }
+        Rectangle{
+
+            height: 400
         }
     }
 

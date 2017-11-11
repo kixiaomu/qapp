@@ -1,7 +1,6 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
-        <file>MainForm.ui.qml</file>
         <file>Grid_Item.qml</file>
         <file>images/close_hover.png</file>
         <file>images/close_normal.png</file>
@@ -52,7 +51,11 @@
         <file>SysBtn.qml</file>
         <file>images/medal_normal.png</file>
         <file>images/medal_hover.png</file>
-        <file>ToolBar.qml</file>
+        <file>ToolBar2.qml</file>
         <file>ToolBtn.qml</file>
+        <file>page1.qml</file>
+        <file>page2.qml</file>
+        <file>Page.qml</file>
+        <file>CustomWidget.qml</file>
     </qresource>
 </RCC>

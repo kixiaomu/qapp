@@ -10,10 +10,12 @@ Rectangle {
     color: "transparent"
     Text {
         id: title_name
-        text: qsTr("360卫士")
-        x:parent.x+20
-        font.pixelSize: 20
+        anchors.left: parent.left
+        text: qsTr("360安全卫士9.1")
+        anchors.leftMargin: 10
+        font.pointSize: 20
         font.bold: true
+        font.family: "微软雅黑"
         color: "white"
     }
 

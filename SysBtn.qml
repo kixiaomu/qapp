@@ -10,7 +10,11 @@ Rectangle{
     color: "transparent"
     width: 32
     height: 32
-    anchors.margins: 10
+    anchors{
+        leftMargin: 10
+        rightMargin: 10
+
+    }
     Image {
         id:img
         anchors.verticalCenter: parent.verticalCenter
