@@ -36,14 +36,17 @@ Window {
         source: background_image
         maskSource: mask
     }
-    Item{
-        id:root
-        z: 1
-        width: parent.width
-        height: 20
+    Rectangle{
+        anchors.fill: parent
+        z:1
+        color: "transparent"
         TitleBar{
+            width: parent.width
+            height: 20
         }
     }
+
+
 
 
 }
