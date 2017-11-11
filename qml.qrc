@@ -2,7 +2,6 @@
     <qresource prefix="/">
         <file>main.qml</file>
         <file>MainForm.ui.qml</file>
-        <file>mbutton.qml</file>
         <file>Grid_Item.qml</file>
         <file>images/close_hover.png</file>
         <file>images/close_normal.png</file>
