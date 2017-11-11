@@ -12,7 +12,6 @@
         <file>images/feedback_normal.png</file>
         <file>images/feedback_pressed.png</file>
         <file>images/fireproof.png</file>
-        <file>images/gray_medal.png</file>
         <file>images/head_bg_3.jpg</file>
         <file>images/ico_AdvTools.png</file>
         <file>images/ico_diannaomenzhen.png</file>
@@ -29,7 +28,6 @@
         <file>images/ludashi.png</file>
         <file>images/max_max.ico</file>
         <file>images/max_normal.ico</file>
-        <file>images/medal.png</file>
         <file>images/menu_hover.png</file>
         <file>images/menu_normal.png</file>
         <file>images/menu_pressed.png</file>
@@ -51,5 +49,10 @@
         <file>images/zhuangji.png</file>
         <file>images/zhuomian.png</file>
         <file>TitleBar.qml</file>
+        <file>SysBtn.qml</file>
+        <file>images/medal_normal.png</file>
+        <file>images/medal_hover.png</file>
+        <file>ToolBar.qml</file>
+        <file>ToolBtn.qml</file>
     </qresource>
 </RCC>

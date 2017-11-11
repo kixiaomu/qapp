@@ -3,13 +3,15 @@ import QtQuick.Window 2.2
 import QtQuick.Controls 2.2
 import QtQuick.Controls.Styles 1.4
 import QtGraphicalEffects 1.0
+import QtQuick.Layouts 1.3
 
 Window {
+    id:mainWindow
     visible: true
     width: 900
     height: 640
     title: qsTr("小木")
-    flags: Qt.FramelessWindowHint//隐藏原生的放大缩小按钮
+    flags: Qt.FramelessWindowHint | Qt.Window //隐藏原生的放大缩小按钮
     color:"transparent"
 
 
@@ -36,13 +38,18 @@ Window {
         source: background_image
         maskSource: mask
     }
-    Rectangle{
+    ColumnLayout{
         anchors.fill: parent
-        z:1
-        color: "transparent"
+        spacing:0
+        //标题栏
         TitleBar{
-            width: parent.width
             height: 20
+            Layout.fillWidth: true
+        }
+        //中间按钮
+        ToolBar{
+            height: 64
+            Layout.fillWidth: true
         }
     }
 
